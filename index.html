@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"> <!-- ESTILOS DE TOASTIFY -->
+    <title>Document</title>
+</head>
+<body>
+
+
+     <!-- alerta al enviar un formulario con sweet alert -->
+
+    <form id="form-nombre">
+        <label>
+            <input type="text">
+        </label>
+        <label>
+            <input type="submit">
+        </label>
+    </form>
+
+    <!-- button que genera notificaciones con toastify -->
+
+    <button type="button" id="noti-generator">Generar notificación</button>
+
+    <!-- button que genera en consola una fecha actual -->
+
+    <button type="button" id="button-fecha">Generar fecha actual</button>
+    <div class="caja"></div>
+    
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!-- SCRIPT DE SWEET ALERT -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> <!-- SCRIPT DE TOASTIFY -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js"></script> <!-- SCRIPT DE LUXON -->
+    <script src="index.js"></script>
+</body>
+</html>
